@@ -4,7 +4,7 @@ import { AppController } from 'src/app.controller';
 import { AppService } from 'src/app.service';
 
 @Module({
-  imports: [ MvolaModule],
+  imports: [MvolaModule],
   controllers: [AppController],
   providers: [AppService],
 })
